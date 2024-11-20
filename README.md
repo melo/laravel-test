@@ -6,7 +6,7 @@ Just a sample project to experiment with this combo.
 
 Start the project with `docker-compose up -d`. This will launch a PgSQL database, a pgAdmin management interface, and a PHP shell to run scripts on.
 
-The database will also be exposed to the host on the standard 5432 TCP port so you can also use local PgSQL clients like TablePlus.
+The database will also be exposed to the host on the standard 5433 TCP port so you can also use local PgSQL clients like TablePlus.
 
 The pgAdmin interface is availble at [http://127.0.0.1:4321/]().
 
