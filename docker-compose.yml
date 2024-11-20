@@ -23,7 +23,7 @@ services:
       - postgres
 
   app:
-    image: php:8
+    build: .
     depends_on:
       - postgres
     command: /bin/sh -c 'while true; do sleep 3600; done'
